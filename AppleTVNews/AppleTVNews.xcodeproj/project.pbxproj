@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CEC49DA298EEF8600C33B6B /* AppleTVNewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEC49D9298EEF8600C33B6B /* AppleTVNewsApp.swift */; };
+		3CEC49DC298EEF8600C33B6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEC49DB298EEF8600C33B6B /* ContentView.swift */; };
+		3CEC49DE298EEF8800C33B6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CEC49DD298EEF8800C33B6B /* Assets.xcassets */; };
+		3CEC49E1298EEF8800C33B6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CEC49E0298EEF8800C33B6B /* Preview Assets.xcassets */; };
+		3CEC49EB298EEF8800C33B6B /* AppleTVNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEC49EA298EEF8800C33B6B /* AppleTVNewsTests.swift */; };
+		3CEC49F5298EEF8800C33B6B /* AppleTVNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEC49F4298EEF8800C33B6B /* AppleTVNewsUITests.swift */; };
+		3CEC49F7298EEF8800C33B6B /* AppleTVNewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEC49F6298EEF8800C33B6B /* AppleTVNewsUITestsLaunchTests.swift */; };
+		3CEC4A04298EF31F00C33B6B /* ContentDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEC4A03298EF31F00C33B6B /* ContentDownloader.swift */; };
+		3CEC4A06298EF37400C33B6B /* ContentDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEC4A05298EF37400C33B6B /* ContentDTO.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CEC49E7298EEF8800C33B6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CEC49CE298EEF8600C33B6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CEC49D5298EEF8600C33B6B;
+			remoteInfo = AppleTVNews;
+		};
+		3CEC49F1298EEF8800C33B6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CEC49CE298EEF8600C33B6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CEC49D5298EEF8600C33B6B;
+			remoteInfo = AppleTVNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CEC49D6298EEF8600C33B6B /* AppleTVNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleTVNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CEC49D9298EEF8600C33B6B /* AppleTVNewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleTVNewsApp.swift; sourceTree = "<group>"; };
+		3CEC49DB298EEF8600C33B6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CEC49DD298EEF8800C33B6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CEC49E0298EEF8800C33B6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CEC49E6298EEF8800C33B6B /* AppleTVNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleTVNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CEC49EA298EEF8800C33B6B /* AppleTVNewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleTVNewsTests.swift; sourceTree = "<group>"; };
+		3CEC49F0298EEF8800C33B6B /* AppleTVNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleTVNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CEC49F4298EEF8800C33B6B /* AppleTVNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleTVNewsUITests.swift; sourceTree = "<group>"; };
+		3CEC49F6298EEF8800C33B6B /* AppleTVNewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleTVNewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CEC4A03298EF31F00C33B6B /* ContentDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDownloader.swift; sourceTree = "<group>"; };
+		3CEC4A05298EF37400C33B6B /* ContentDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDTO.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CEC49D3298EEF8600C33B6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEC49E3298EEF8800C33B6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEC49ED298EEF8800C33B6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CEC49CD298EEF8600C33B6B = {
+			isa = PBXGroup;
+			children = (
+				3CEC49D8298EEF8600C33B6B /* AppleTVNews */,
+				3CEC49E9298EEF8800C33B6B /* AppleTVNewsTests */,
+				3CEC49F3298EEF8800C33B6B /* AppleTVNewsUITests */,
+				3CEC49D7298EEF8600C33B6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CEC49D7298EEF8600C33B6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CEC49D6298EEF8600C33B6B /* AppleTVNews.app */,
+				3CEC49E6298EEF8800C33B6B /* AppleTVNewsTests.xctest */,
+				3CEC49F0298EEF8800C33B6B /* AppleTVNewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CEC49D8298EEF8600C33B6B /* AppleTVNews */ = {
+			isa = PBXGroup;
+			children = (
+				3CEC49D9298EEF8600C33B6B /* AppleTVNewsApp.swift */,
+				3CEC49DB298EEF8600C33B6B /* ContentView.swift */,
+				3CEC49DD298EEF8800C33B6B /* Assets.xcassets */,
+				3CEC49DF298EEF8800C33B6B /* Preview Content */,
+				3CEC4A03298EF31F00C33B6B /* ContentDownloader.swift */,
+				3CEC4A05298EF37400C33B6B /* ContentDTO.swift */,
+			);
+			path = AppleTVNews;
+			sourceTree = "<group>";
+		};
+		3CEC49DF298EEF8800C33B6B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3CEC49E0298EEF8800C33B6B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CEC49E9298EEF8800C33B6B /* AppleTVNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CEC49EA298EEF8800C33B6B /* AppleTVNewsTests.swift */,
+			);
+			path = AppleTVNewsTests;
+			sourceTree = "<group>";
+		};
+		3CEC49F3298EEF8800C33B6B /* AppleTVNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CEC49F4298EEF8800C33B6B /* AppleTVNewsUITests.swift */,
+				3CEC49F6298EEF8800C33B6B /* AppleTVNewsUITestsLaunchTests.swift */,
+			);
+			path = AppleTVNewsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CEC49D5298EEF8600C33B6B /* AppleTVNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CEC49FA298EEF8800C33B6B /* Build configuration list for PBXNativeTarget "AppleTVNews" */;
+			buildPhases = (
+				3CEC49D2298EEF8600C33B6B /* Sources */,
+				3CEC49D3298EEF8600C33B6B /* Frameworks */,
+				3CEC49D4298EEF8600C33B6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleTVNews;
+			productName = AppleTVNews;
+			productReference = 3CEC49D6298EEF8600C33B6B /* AppleTVNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CEC49E5298EEF8800C33B6B /* AppleTVNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CEC49FD298EEF8800C33B6B /* Build configuration list for PBXNativeTarget "AppleTVNewsTests" */;
+			buildPhases = (
+				3CEC49E2298EEF8800C33B6B /* Sources */,
+				3CEC49E3298EEF8800C33B6B /* Frameworks */,
+				3CEC49E4298EEF8800C33B6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CEC49E8298EEF8800C33B6B /* PBXTargetDependency */,
+			);
+			name = AppleTVNewsTests;
+			productName = AppleTVNewsTests;
+			productReference = 3CEC49E6298EEF8800C33B6B /* AppleTVNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CEC49EF298EEF8800C33B6B /* AppleTVNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CEC4A00298EEF8800C33B6B /* Build configuration list for PBXNativeTarget "AppleTVNewsUITests" */;
+			buildPhases = (
+				3CEC49EC298EEF8800C33B6B /* Sources */,
+				3CEC49ED298EEF8800C33B6B /* Frameworks */,
+				3CEC49EE298EEF8800C33B6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CEC49F2298EEF8800C33B6B /* PBXTargetDependency */,
+			);
+			name = AppleTVNewsUITests;
+			productName = AppleTVNewsUITests;
+			productReference = 3CEC49F0298EEF8800C33B6B /* AppleTVNewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CEC49CE298EEF8600C33B6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3CEC49D5298EEF8600C33B6B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3CEC49E5298EEF8800C33B6B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3CEC49D5298EEF8600C33B6B;
+					};
+					3CEC49EF298EEF8800C33B6B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3CEC49D5298EEF8600C33B6B;
+					};
+				};
+			};
+			buildConfigurationList = 3CEC49D1298EEF8600C33B6B /* Build configuration list for PBXProject "AppleTVNews" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CEC49CD298EEF8600C33B6B;
+			productRefGroup = 3CEC49D7298EEF8600C33B6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CEC49D5298EEF8600C33B6B /* AppleTVNews */,
+				3CEC49E5298EEF8800C33B6B /* AppleTVNewsTests */,
+				3CEC49EF298EEF8800C33B6B /* AppleTVNewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CEC49D4298EEF8600C33B6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CEC49E1298EEF8800C33B6B /* Preview Assets.xcassets in Resources */,
+				3CEC49DE298EEF8800C33B6B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEC49E4298EEF8800C33B6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEC49EE298EEF8800C33B6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CEC49D2298EEF8600C33B6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CEC49DC298EEF8600C33B6B /* ContentView.swift in Sources */,
+				3CEC4A06298EF37400C33B6B /* ContentDTO.swift in Sources */,
+				3CEC4A04298EF31F00C33B6B /* ContentDownloader.swift in Sources */,
+				3CEC49DA298EEF8600C33B6B /* AppleTVNewsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEC49E2298EEF8800C33B6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CEC49EB298EEF8800C33B6B /* AppleTVNewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEC49EC298EEF8800C33B6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CEC49F7298EEF8800C33B6B /* AppleTVNewsUITestsLaunchTests.swift in Sources */,
+				3CEC49F5298EEF8800C33B6B /* AppleTVNewsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CEC49E8298EEF8800C33B6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CEC49D5298EEF8600C33B6B /* AppleTVNews */;
+			targetProxy = 3CEC49E7298EEF8800C33B6B /* PBXContainerItemProxy */;
+		};
+		3CEC49F2298EEF8800C33B6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CEC49D5298EEF8600C33B6B /* AppleTVNews */;
+			targetProxy = 3CEC49F1298EEF8800C33B6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CEC49F8298EEF8800C33B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+			};
+			name = Debug;
+		};
+		3CEC49F9298EEF8800C33B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CEC49FB298EEF8800C33B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleTVNews/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gravityllc.firstproject.AppleTVNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		3CEC49FC298EEF8800C33B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleTVNews/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gravityllc.firstproject.AppleTVNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		3CEC49FE298EEF8800C33B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gravityllc.firstproject.AppleTVNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleTVNews.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppleTVNews";
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+			};
+			name = Debug;
+		};
+		3CEC49FF298EEF8800C33B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gravityllc.firstproject.AppleTVNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleTVNews.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppleTVNews";
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+			};
+			name = Release;
+		};
+		3CEC4A01298EEF8800C33B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gravityllc.firstproject.AppleTVNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = AppleTVNews;
+			};
+			name = Debug;
+		};
+		3CEC4A02298EEF8800C33B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gravityllc.firstproject.AppleTVNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = AppleTVNews;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CEC49D1298EEF8600C33B6B /* Build configuration list for PBXProject "AppleTVNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CEC49F8298EEF8800C33B6B /* Debug */,
+				3CEC49F9298EEF8800C33B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CEC49FA298EEF8800C33B6B /* Build configuration list for PBXNativeTarget "AppleTVNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CEC49FB298EEF8800C33B6B /* Debug */,
+				3CEC49FC298EEF8800C33B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CEC49FD298EEF8800C33B6B /* Build configuration list for PBXNativeTarget "AppleTVNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CEC49FE298EEF8800C33B6B /* Debug */,
+				3CEC49FF298EEF8800C33B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CEC4A00298EEF8800C33B6B /* Build configuration list for PBXNativeTarget "AppleTVNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CEC4A01298EEF8800C33B6B /* Debug */,
+				3CEC4A02298EEF8800C33B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CEC49CE298EEF8600C33B6B /* Project object */;
+}
